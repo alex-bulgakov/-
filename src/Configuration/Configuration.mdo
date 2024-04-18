@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abdd22d6-e161-4e75-a635-a9d1b8daa603">
+  <name>Мастерская</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Edt) Мастерская</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="44f471e8-fd14-48b6-825a-aef4acb512be"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f80e3652-dcbf-443c-bf13-e62e0bec0717"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="528868d3-5b6b-4fb7-9e5d-3201db019330"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2f232c28-f4d0-40a1-94a4-0c6d5e6aebd2"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ed06ef2f-6679-4a9c-8353-46121cadbd86"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="eaa11d49-3450-4ea6-a419-a97c8883c2c1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="42d3aaec-cbda-4e82-b6c8-1993d027216c"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>БулгаковАС</vendor>
+  <version>0.01</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="e6942df5-56ce-473c-9194-7ac62300592b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Производство</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Деньги</subsystems>
+  <subsystems>Subsystem.Склады</subsystems>
+  <commonPictures>CommonPicture.Администрирование</commonPictures>
+  <commonPictures>CommonPicture.Деньги</commonPictures>
+  <commonPictures>CommonPicture.Закупки</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.Производство</commonPictures>
+  <commonPictures>CommonPicture.Склады</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.Версия</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.РаботаСФайлами</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
+  <definedTypes>DefinedType.Комментарий</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
+  <constants>Constant.Версия</constants>
+  <constants>Constant.УстановкаЦенИзДокументовПоступления</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Бренды</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.СтатьиДоходовоИРасходов</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриобретениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.Инвентаризация</documents>
+  <documents>Document.ВыпускПродукции</documents>
+  <documents>Document.Списание</documents>
+  <documents>Document.ПриходДенег</documents>
+  <documents>Document.РасходДенег</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.ПеремещениеПоСкладам</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.ВидыКонтрагентов</enums>
+  <enums>Enum.ПричиныСписания</enums>
+  <enums>Enum.ТипыКасс</enums>
+  <reports>Report.ОтчетПоЦенам</reports>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.ОстаткиДенег</reports>
+  <dataProcessors>DataProcessor.КалькуляторПлощадиКожиВДм</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.Наценка</informationRegisters>
+  <informationRegisters>InformationRegister.КартинкиНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.Себестоимость</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиДенег</accumulationRegisters>
+</mdclass:Configuration>
